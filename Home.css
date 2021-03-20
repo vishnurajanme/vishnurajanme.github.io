@@ -1,0 +1,45 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 690px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 430px;
+  height: 430px;
+  background-image: url("images/cropped-coat-1.jpg");
+  background-position: 50% 50%;
+  margin: 60px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  width: 770px;
+  font-size: 1.25rem;
+  background-image: none;
+  margin: 30px auto 60px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 600px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 340px;
+  }
+}
