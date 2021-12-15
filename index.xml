@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Dr. Vishnu Rajan&#39;s personal digital space&#39;</title>
+    <link>https://vishnurajanme.github.io/</link>
+    <description>Recent content on Welcome to Dr. Vishnu Rajan&#39;s personal digital space&#39;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 15 Dec 2021 10:38:31 +0530</lastBuildDate><atom:link href="https://vishnurajanme.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portfolio</title>
+      <link>https://vishnurajanme.github.io/portfolio/</link>
+      <pubDate>Wed, 15 Dec 2021 18:26:11 +0530</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/portfolio/</guid>
+      <description>Visit my Android App Store Profile    Dos Matrix Watchface 3.1    -
+Dos Matrix Watchface 2.0    -
+Maskhunter 2.0 with covidbarrier    -
+Automatic mask detection system using tensorflow   Maskhunter 1.0    -</description>
+    </item>
+    
+    <item>
+      <title>Patents &amp; Funded projects</title>
+      <link>https://vishnurajanme.github.io/projects1/</link>
+      <pubDate>Wed, 15 Dec 2021 17:33:50 +0530</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/projects1/</guid>
+      <description>Patents  Lithium-ion battery range and soc prediction for electric vehicle – INA202141020402 Photofinish – A low cost multi camera system for sprint auto positioning – INA202141029282 Funded Projects  Projects  KTU sponsored FDP on Deep Learning for Signal Processing- Basics to Implementation 2020 – Rs. 200500 Consultancy work for sports council – 2020 – Photofinish, Ventometer, Longjump Distance Measurement – Rs. 25000 each Codevipad – Malayala Manorama Yuva Mastermind 2019 Rs.</description>
+    </item>
+    
+    <item>
+      <title>Training offered</title>
+      <link>https://vishnurajanme.github.io/training/</link>
+      <pubDate>Wed, 15 Dec 2021 17:17:53 +0530</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/training/</guid>
+      <description> AI &amp;amp; ML using tensorflow and python Embedded development using Arduino, nodeMCU, Raspberry pi Signal processing using python, openCV, TensorFlow and Keras How to guide projects well – Session for teachers Android app Development using Flutter/MIT App Inventor/Kotlin Mobile phone modular LVL 1 servicing  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://vishnurajanme.github.io/contact/</link>
+      <pubDate>Wed, 15 Dec 2021 17:17:48 +0530</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/contact/</guid>
+      <description> Submit  </description>
+    </item>
+    
+    <item>
+      <title>Achievements</title>
+      <link>https://vishnurajanme.github.io/achievements/</link>
+      <pubDate>Wed, 15 Dec 2021 17:15:27 +0530</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/achievements/</guid>
+      <description>ISTE, IAENG, IFERP, IAOE Life member
+Resource person for several workshops conducted by KTU affiliated institutions
+Regular reviewer of few SCI indexed journals
+Reviewer/Board member in 10+ UGC approved Journals
+Has published more than 15 papers in International Journals/Conferences
+Chaired several National/International Conferences
+Featured in media because of the guidance and promotion of humanitarian projects.
+Head of “HARDWARE CLUB &amp;amp; Science center” An innovation Centre in SCET focused on In-house project development.</description>
+    </item>
+    
+    <item>
+      <title>Areas of expertise</title>
+      <link>https://vishnurajanme.github.io/expertise/</link>
+      <pubDate>Wed, 15 Dec 2021 17:15:27 +0530</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/expertise/</guid>
+      <description> Signal Processing Embedded Systems Robotics &amp;amp; IOT AI and ML Modular servicing Mobile phones &amp;amp; Tablets Android Development – Flutter/Kotlin/MIT App Inventor Leadership &amp;amp; Project Management  Education Details:  B.Tech- Electronics &amp;amp; Communication M.Tech- Communication Systems PhD – Signal Processing  Major Certifications:  Certified Tensorflow Professional Google certified Kotlin Development Trainer (Android) Microsoft certified systems engineer Specialised in AI and ML using GCP, by Google Cloud  </description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://vishnurajanme.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 15 Dec 2021 10:38:31 +0530</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://vishnurajanme.github.io/blog/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/blog/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://vishnurajanme.github.io/blog/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/blog/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://vishnurajanme.github.io/blog/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/blog/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://vishnurajanme.github.io/blog/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/blog/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://vishnurajanme.github.io/blog/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vishnurajanme.github.io/blog/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
