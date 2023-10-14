@@ -1,0 +1,44 @@
+[
+  {
+    "stringResourseId": "apples",
+    "itemCategoryId": "fruits",
+    "itemQuantity": "1 kg",
+    "item_price": 190,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/apples.png"
+  },
+  {
+    "stringResourseId": "banana",
+    "itemCategoryId": "fruits",
+    "itemQuantity": "1 kg",
+    "item_price": 100,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/banana.png"
+  },
+  {
+    "stringResourseId": "papaya",
+    "itemCategoryId": "fruits",
+    "itemQuantity": "500 gm",
+    "item_price": 70,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/papaya.png"
+  },
+  {
+    "stringResourseId": "pomegranate",
+    "itemCategoryId": "fruits",
+    "itemQuantity": "1 Kg",
+    "item_price": 200,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/pomegranate.png"
+  },
+  {
+    "stringResourseId": "tomato",
+    "itemCategoryId": "vegetables",
+    "itemQuantity": "500 Gm",
+    "item_price": 40,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/tomato.png"
+  },
+  {
+    "stringResourseId": "potato",
+    "itemCategoryId": "vegetables",
+    "itemQuantity": "1 Kg",
+    "item_price": 30,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/potato.png"
+  }
+]
