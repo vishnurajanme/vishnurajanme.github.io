@@ -4,14 +4,14 @@
     "itemCategoryId": "Fresh Fruits",
     "itemQuantity": "1 kg",
     "item_price": 190,
-    "imageResourseId": "https://vishnurajanme.github.io/img/apple.png"
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/apple.png"
   },
   {
     "stringResourseId": "banana",
     "itemCategoryId": "Fresh Fruits",
     "itemQuantity": "1 kg",
     "item_price": 100,
-    "imageResourseId": "https://vishnurajanme.github.io/img/banana.png"
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/banana.png"
   },
   {
     "stringResourseId": "papaya",
@@ -27,6 +27,84 @@
     "item_price": 200,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/pomegranate.png"
   },
+  {
+    "stringResourseId": "cherry",
+    "itemCategoryId": "Fresh Fruits",
+    "itemQuantity": "1 Kg",
+    "item_price": 250,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/cherry.png"
+  },
+  {
+    "stringResourseId": "grapes",
+    "itemCategoryId": "Fresh Fruits",
+    "itemQuantity": "1 Kg",
+    "item_price": 100,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/grapes.png"
+  },
+  {
+    "stringResourseId": "kiwi",
+    "itemCategoryId": "Fresh Fruits",
+    "itemQuantity": "1 Kg",
+    "item_price": 370,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/kiwi.png"
+  },
+  {
+    "stringResourseId": "peach",
+    "itemCategoryId": "Fresh Fruits",
+    "itemQuantity": "1 Kg",
+    "item_price": 220,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/peach.png"
+  },
+  {
+    "stringResourseId": "strawberry",
+    "itemCategoryId": "Fresh Fruits",
+    "itemQuantity": "250 Gm",
+    "item_price": 100,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/strawberry.png"
+  },
+  {
+    "stringResourseId": "Watermelon",
+    "itemCategoryId": "Fresh Fruits",
+    "itemQuantity": "1 Pc",
+    "item_price": 40,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/watermelon.png"
+  },
+  {
+    "stringResourseId": "bisleri water",
+    "itemCategoryId": "Fresh Fruits",
+    "itemQuantity": "500 ml",
+    "item_price": 15,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/bisleri.png"
+  },
+  {
+    "stringResourseId": "bisleri water",
+    "itemCategoryId": "beverages",
+    "itemQuantity": "500 ml",
+    "item_price": 15,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/bisleri.png"
+  },
+  {
+    "stringResourseId": "pepsi can",
+    "itemCategoryId": "beverages",
+    "itemQuantity": "375 ml",
+    "item_price": 20,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/pepsi.png"
+  },
+  {
+    "stringResourseId": "real pomegranate juice",
+    "itemCategoryId": "beverages",
+    "itemQuantity": "500 ml",
+    "item_price": 35,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/realjuice.png"
+  },
+  {
+    "stringResourseId": "roohafza",
+    "itemCategoryId": "beverages",
+    "itemQuantity": "1000 ml",
+    "item_price": 145,
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/roohafza.png"
+  },
+
   {
     "stringResourseId": "tomato",
     "itemCategoryId": "Fresh Vegetables",
