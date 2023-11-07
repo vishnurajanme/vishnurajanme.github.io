@@ -1,42 +1,42 @@
 [
   {
     "stringResourseId": "apples",
-    "itemCategoryId": "fruits",
+    "itemCategoryId": "Fresh Fruits",
     "itemQuantity": "1 kg",
     "item_price": 190,
-    "imageResourseId": "https://vishnurajanme.github.io/img/Items/apples.png"
+    "imageResourseId": "https://vishnurajanme.github.io/img/apples.png"
   },
   {
     "stringResourseId": "banana",
-    "itemCategoryId": "fruits",
+    "itemCategoryId": "Fresh Fruits",
     "itemQuantity": "1 kg",
     "item_price": 100,
-    "imageResourseId": "https://vishnurajanme.github.io/img/Items/banana.png"
+    "imageResourseId": "https://vishnurajanme.github.io/img/banana.png"
   },
   {
     "stringResourseId": "papaya",
-    "itemCategoryId": "fruits",
+    "itemCategoryId": "Fresh Fruits",
     "itemQuantity": "500 gm",
     "item_price": 70,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/papaya.png"
   },
   {
     "stringResourseId": "pomegranate",
-    "itemCategoryId": "fruits",
+    "itemCategoryId": "Fresh Fruits",
     "itemQuantity": "1 Kg",
     "item_price": 200,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/pomegranate.png"
   },
   {
     "stringResourseId": "tomato",
-    "itemCategoryId": "vegetables",
+    "itemCategoryId": "Fresh Vegetables",
     "itemQuantity": "500 Gm",
     "item_price": 40,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/tomato.png"
   },
   {
     "stringResourseId": "potato",
-    "itemCategoryId": "vegetables",
+    "itemCategoryId": "Fresh Vegetables",
     "itemQuantity": "1 Kg",
     "item_price": 30,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/potato.png"
