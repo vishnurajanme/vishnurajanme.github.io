@@ -4,7 +4,7 @@
     "itemCategoryId": "Fresh Fruits",
     "itemQuantity": "1 kg",
     "item_price": 190,
-    "imageResourseId": "https://vishnurajanme.github.io/img/Items/apple.png"
+    "imageResourseId": "https://vishnurajanme.github.io/img/Items/apples.png"
   },
   {
     "stringResourseId": "banana",
@@ -68,13 +68,6 @@
     "itemQuantity": "1 Pc",
     "item_price": 40,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/watermelon.png"
-  },
-  {
-    "stringResourseId": "bisleri water",
-    "itemCategoryId": "Fresh Fruits",
-    "itemQuantity": "500 ml",
-    "item_price": 15,
-    "imageResourseId": "https://vishnurajanme.github.io/img/Items/bisleri.png"
   },
   {
     "stringResourseId": "bisleri water",
