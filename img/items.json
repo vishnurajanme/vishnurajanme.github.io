@@ -1,97 +1,97 @@
 [
   {
-    "stringResourseId": "apples",
+    "stringResourseId": "Apples",
     "itemCategoryId": "Fresh Fruits",
     "itemQuantity": "1 kg",
     "item_price": 190,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/apples.png"
   },
   {
-    "stringResourseId": "banana",
+    "stringResourseId": "Banana",
     "itemCategoryId": "Fresh Fruits",
     "itemQuantity": "1 kg",
     "item_price": 100,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/banana.png"
   },
   {
-    "stringResourseId": "papaya",
+    "stringResourseId": "Papaya",
     "itemCategoryId": "Fresh Fruits",
     "itemQuantity": "500 gm",
     "item_price": 70,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/papaya.png"
   },
   {
-    "stringResourseId": "pomegranate",
+    "stringResourseId": "Pomegranate",
     "itemCategoryId": "Fresh Fruits",
-    "itemQuantity": "1 Kg",
+    "itemQuantity": "1 kg",
     "item_price": 200,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/pomegranate.png"
   },
   {
-    "stringResourseId": "cherry",
+    "stringResourseId": "Cherry",
     "itemCategoryId": "Fresh Fruits",
-    "itemQuantity": "1 Kg",
+    "itemQuantity": "1 kg",
     "item_price": 250,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/cherry.png"
   },
   {
-    "stringResourseId": "grapes",
+    "stringResourseId": "Grapes",
     "itemCategoryId": "Fresh Fruits",
-    "itemQuantity": "1 Kg",
+    "itemQuantity": "1 kg",
     "item_price": 100,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/grapes.png"
   },
   {
-    "stringResourseId": "kiwi",
+    "stringResourseId": "Kiwi",
     "itemCategoryId": "Fresh Fruits",
-    "itemQuantity": "1 Kg",
+    "itemQuantity": "1 kg",
     "item_price": 370,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/kiwi.png"
   },
   {
-    "stringResourseId": "peach",
+    "stringResourseId": "Peach",
     "itemCategoryId": "Fresh Fruits",
-    "itemQuantity": "1 Kg",
+    "itemQuantity": "1 kg",
     "item_price": 220,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/peach.png"
   },
   {
-    "stringResourseId": "strawberry",
+    "stringResourseId": "Strawberry",
     "itemCategoryId": "Fresh Fruits",
-    "itemQuantity": "250 Gm",
+    "itemQuantity": "250 gm",
     "item_price": 100,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/strawberry.png"
   },
   {
     "stringResourseId": "Watermelon",
     "itemCategoryId": "Fresh Fruits",
-    "itemQuantity": "1 Pc",
+    "itemQuantity": "1 pc",
     "item_price": 40,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/watermelon.png"
   },
   {
-    "stringResourseId": "bisleri water",
+    "stringResourseId": "Bisleri Water",
     "itemCategoryId": "beverages",
     "itemQuantity": "500 ml",
     "item_price": 15,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/bisleri.png"
   },
   {
-    "stringResourseId": "pepsi can",
+    "stringResourseId": "Pepsi Can",
     "itemCategoryId": "beverages",
     "itemQuantity": "375 ml",
     "item_price": 20,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/pepsi.png"
   },
   {
-    "stringResourseId": "real pomegranate juice",
+    "stringResourseId": "Real Pomegranate Juice",
     "itemCategoryId": "beverages",
     "itemQuantity": "500 ml",
     "item_price": 35,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/realjuice.png"
   },
   {
-    "stringResourseId": "roohafza",
+    "stringResourseId": "Roohafza",
     "itemCategoryId": "beverages",
     "itemQuantity": "1000 ml",
     "item_price": 145,
@@ -99,16 +99,16 @@
   },
 
   {
-    "stringResourseId": "tomato",
+    "stringResourseId": "Tomato",
     "itemCategoryId": "Fresh Vegetables",
-    "itemQuantity": "500 Gm",
+    "itemQuantity": "500 gm",
     "item_price": 40,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/tomato.png"
   },
   {
-    "stringResourseId": "potato",
+    "stringResourseId": "Potato",
     "itemCategoryId": "Fresh Vegetables",
-    "itemQuantity": "1 Kg",
+    "itemQuantity": "1 kg",
     "item_price": 30,
     "imageResourseId": "https://vishnurajanme.github.io/img/Items/potato.png"
   }
