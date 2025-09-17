@@ -1,4 +1,4 @@
-import{r as gt,R as Ys,j as Xe,L as Ks}from"./index-CFSFiYd-.js";import{m as di}from"./proxy-DYwFs64M.js";/**
+import{r as gt,R as Ys,j as Xe,L as Ks}from"./index-ClFcmKfT.js";import{m as di}from"./proxy-BM1g6fMV.js";/**
  * @license
  * Copyright 2010-2025 Three.js Authors
  * SPDX-License-Identifier: MIT
