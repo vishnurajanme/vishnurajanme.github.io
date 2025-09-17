@@ -50,35 +50,26 @@ const socialLinks = [
 export default function Contact() {
   const contact = {
     email: "vishnurajanme@gmail.com",
-    feedbackForm: "https://forms.gle/your-feedback-form",
+    feedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSdeukyMHl-YomL8i-Bl2qARzWhS64cUCffaqUqBWkaJ5GYlvA/viewform?usp=dialog",
   };
 
   return (
-    <div className="bg-gradient-to-br from-black to-purple-950 min-h-screen font-sans text-white">
-      <section className="max-w-6xl mx-auto px-4 py-16 pt-10 space-y-16">
-        <div style={{ marginTop: "100px" }}></div> {/* Spacer */}
-
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="text-center"
-        >
+    // --- MODIFIED: Added top and bottom padding to prevent content from being cut off by the navbar ---
+    <div className="bg-gradient-to-br from-black to-purple-950 min-h-screen font-sans text-white pt-24 pb-12">
+      <section className="max-w-6xl mx-auto px-4 py-8 space-y-12">
+        {/* The rest of your content remains the same */}
+        <div className="text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white">
             Ready to Create Something Remarkable?
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto">
             Whether you're looking to collaborate, hire, or just say hello, my digital door is always open.
           </p>
-        </motion.div>
+        </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-stretch justify-center">
           {/* Email Card */}
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
+          <div
             className="bg-gray-900 p-8 rounded-3xl shadow-lg flex flex-col items-center text-center hover:bg-gray-800 transition-colors duration-300 h-full"
           >
             <h2 className="text-2xl font-bold mb-4">Drop Me a Line</h2>
@@ -91,14 +82,10 @@ export default function Contact() {
             >
               Send an Email
             </a>
-          </motion.div>
+          </div>
 
           {/* Feedback Form Card */}
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
+          <div
             className="bg-gray-900 p-8 rounded-3xl shadow-lg flex flex-col items-center text-center hover:bg-gray-800 transition-colors duration-300 h-full"
           >
             <h2 className="text-2xl font-bold mb-4">Got Something on Your Mind?</h2>
@@ -113,17 +100,11 @@ export default function Contact() {
             >
               Leave Feedback
             </a>
-          </motion.div>
+          </div>
         </div>
 
         {/* Social Links */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-center space-y-4"
-        >
+        <div className="text-center space-y-4">
           <h2 className="text-2xl font-bold text-white">Connect with Me</h2>
           <div className="flex justify-center gap-6 text-3xl text-white flex-wrap">
             {socialLinks.map((social, index) => (
@@ -133,7 +114,6 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`p-3 bg-gray-800 rounded-full transition-colors ${social.hoverColor}`}
-                // The animation logic is here
                 animate={{
                   scale: [1, 1.1, 1],
                   filter: [
@@ -143,17 +123,17 @@ export default function Contact() {
                   ],
                 }}
                 transition={{
-                  duration: 2,         // Total duration of one loop cycle
-                  repeat: Infinity,    // Makes the animation loop forever
+                  duration: 2,
+                  repeat: Infinity,
                   ease: "easeInOut",
-                  delay: index * 0.2,  // The key to staggering the animations
+                  delay: index * 0.2,
                 }}
               >
                 <social.icon />
               </motion.a>
             ))}
           </div>
-        </motion.div>
+        </div>
       </section>
     </div>
   );

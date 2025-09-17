@@ -1,22 +1,20 @@
 import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { HiMenu, HiX } from "react-icons/hi"; // Import hamburger and close icons
+import { HiMenu, HiX } from "react-icons/hi";
 
 const nav = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
-  { to: "/projects", label: "Projects" },
+  { to: "/projects", label: "Projects" }, // ✅ Added back
   { to: "/services", label: "Services" },
   { to: "/training", label: "Training" },
   { to: "/contact", label: "Contact" },
 ];
 
 export default function Navbar() {
-  // State to manage whether the mobile menu is open or closed
   const [isOpen, setIsOpen] = useState(false);
 
-  // Animation variants for the mobile menu
   const menuVariants = {
     hidden: {
       opacity: 0,
@@ -36,10 +34,14 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur border-b">
+    <header className="fixed top-0 inset-x-0 z-50 bg-gradient-to-b from-white/10 to-black/60 backdrop-blur-md border-b border-purple-900/50">
       <div className="max-w-6xl mx-auto px-4">
         <div className="py-3 flex items-center justify-between">
-          <Link to="/" className="font-bold text-lg md:text-xl tracking-tight" onClick={() => setIsOpen(false)}>
+          <Link 
+            to="/" 
+            className="font-bold text-lg md:text-xl tracking-tight text-slate-100 hover:text-purple-300 transition-colors" 
+            onClick={() => setIsOpen(false)}
+          >
             Vishnu Rajan
           </Link>
           
@@ -51,7 +53,9 @@ export default function Navbar() {
                 to={n.to}
                 className={({ isActive }) =>
                   `px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-                    isActive ? "bg-slate-200 text-slate-900" : "text-slate-700 hover:bg-slate-100"
+                    isActive
+                      ? "bg-purple-700 text-white"
+                      : "text-slate-300 hover:bg-white/10 hover:text-white"
                   }`
                 }
                 end={n.to === "/"}
@@ -61,28 +65,24 @@ export default function Navbar() {
             ))}
           </nav>
           
-          {/* Mobile Menu Button (Hamburger/Close Icon) */}
+          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-md text-slate-700 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-slate-500"
+              className="p-2 rounded-md text-slate-300 hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500"
               aria-label="Toggle menu"
             >
-              {isOpen ? (
-                <HiX className="h-6 w-6" />
-              ) : (
-                <HiMenu className="h-6 w-6" />
-              )}
+              {isOpen ? <HiX className="h-6 w-6" /> : <HiMenu className="h-6 w-6" />}
             </button>
           </div>
         </div>
       </div>
 
-      {/* Mobile Menu (Animated with Framer Motion) */}
+      {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.nav
-            className="md:hidden bg-white/80 backdrop-blur border-t"
+            className="md:hidden bg-gradient-to-b from-white/10 to-black/80 backdrop-blur-md border-t border-purple-900/50"
             variants={menuVariants}
             initial="hidden"
             animate="visible"
@@ -93,10 +93,12 @@ export default function Navbar() {
                 <motion.div key={n.to} variants={navLinkVariants}>
                   <NavLink
                     to={n.to}
-                    onClick={() => setIsOpen(false)} // Close menu on link click
+                    onClick={() => setIsOpen(false)}
                     className={({ isActive }) =>
                       `block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                        isActive ? "bg-slate-200 text-slate-900" : "text-slate-700 hover:bg-slate-100"
+                        isActive
+                          ? "bg-purple-700 text-white"
+                          : "text-slate-300 hover:bg-white/10 hover:text-white"
                       }`
                     }
                     end={n.to === "/"}
